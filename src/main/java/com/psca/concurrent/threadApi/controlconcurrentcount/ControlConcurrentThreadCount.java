@@ -27,7 +27,7 @@ public class ControlConcurrentThreadCount {
                     workers.add(thread);
                 });
 
-//        Optional.of(workers).ifPresent(System.out :: println);
+//        Optional.of(workersdesign).ifPresent(System.out :: println);
         workers.stream().forEach(thread -> {
             try {
                 thread.join();
